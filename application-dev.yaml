@@ -1,4 +1,7 @@
-datasource:
+spring:
+  application:
+    name: USER_APP
+  datasource:
     url: jdbc:mysql://127.0.0.1:3306/usercart
     username: root
     password: Root@123
